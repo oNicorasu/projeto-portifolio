@@ -45,10 +45,36 @@
    height: 24px;
 }
 
-.project-card {
+.card {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   padding: 12px 12px 17px 12px;
+   background-color: var(--gray300);
+   border-radius: 12px;
+}
 
+.card:hover {
+   outline: 1px solid var(--gray400);
+}
+
+.card div{
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+   padding: 4px;
+}
+
+.card div h3{
+   font: bold var(--title-sm);
+   color: var(--gray600);
+}
+
+.card div p{
+   font: normal var(--text-sm);
+   color: var(--gray500);
 }
 
 .social-button {
-   
+
 }
