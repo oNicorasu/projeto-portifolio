@@ -1,0 +1,73 @@
+@import url(global.css);
+
+header {
+   display: flex;
+   flex-direction: column;
+   gap: 80px;
+   align-items: center;
+   background: url(../assets/images/backgrounds/Background_Intro.png);
+   background-size: cover;
+   padding: 120px 163px 183px 163px;
+}
+
+#info {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   gap: 56px;
+   width: 680px;
+   height: 327px;
+}
+
+#info img{
+   height: 112px;
+   width: 112px;
+}
+
+#text {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   gap: 20px;
+}
+
+#text div{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   gap: 8px;
+}
+
+#text h1 {
+   font: bold var(--title-lg);
+   color: var(--gray600);
+}
+
+#text h3 {
+   font: normal var(--subtitle);
+   color: var(--gray500);
+}
+
+#text p {
+   font: normal var(--text-sm);
+   color: var(--gray400);
+}
+
+#text h3 span {
+   color: var(--blue);
+}
+
+#tags {
+   display: flex;
+   font: var(--text-md);
+   justify-content: center;
+   gap: 16px;
+   color: var(--gray500);
+}
+
+#tags div{
+   padding: 8px 16px;
+   display: flex;
+   justify-content: center;
+   gap: 8px;
+}
