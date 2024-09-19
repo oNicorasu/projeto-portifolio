@@ -35,6 +35,37 @@
    --gray600: #e2e4e9;
 }
 
+html{
+   scroll-behavior: smooth;
+   background-color: var(--gray200);
+}
+
+/* width */
+::-webkit-scrollbar {
+   width: 10px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+   background: var(--gray200);
+   border-radius: 12px;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+   background: var(--gray100);
+   border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+   background: var(--gray300); 
+}
+
+a {
+   text-decoration: none;
+}
+
 .iconTag {
    height: 40px;
    background-color: var(--gray300);
@@ -73,8 +104,4 @@
 .card div p{
    font: normal var(--text-sm);
    color: var(--gray500);
-}
-
-.social-button {
-
 }
