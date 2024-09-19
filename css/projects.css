@@ -8,19 +8,19 @@
    padding: 72px 120px 144px 120px;
 }
 
-#tittle {
+.tittle {
    display: flex;
    flex-direction: column;
    align-items: center;
    gap: 8px;
 }
 
-#tittle h3 {
+.tittle h3 {
    color: var(--blue);
    font: var(--subtitle);
 }
 
-#tittle h2 {
+.tittle h2 {
    color: var(--gray600);
    font: var(--title-md);
 }

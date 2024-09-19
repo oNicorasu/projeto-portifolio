@@ -1,0 +1,41 @@
+@import url(global.css);
+
+#services {
+   display: grid;
+   gap: 56px;
+   background-color: var(--gray100);
+   padding: 88px 120px 120px;
+}
+
+.flexcard{
+   display: flex;
+   gap: 24px;
+   justify-content: center;
+}
+.cardServ {
+   display: grid;
+   gap: 20px;
+   padding: 20px;
+   border: 1px solid var(--gray200);
+   border-radius: 12px;
+}
+
+.cardServ img {
+   height: 48px;
+   width: 48px;
+}
+
+.cardServ div h3 {
+   font: bold var(--title-sm);
+   color: var(--gray600);
+}
+
+.cardServ div p {
+   font: var(--text-sm);
+   color: var(--gray500);
+}
+
+.cardServ div {
+   display: grid;
+   gap: 8px;
+}
