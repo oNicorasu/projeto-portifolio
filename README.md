@@ -10,4 +10,5 @@
 
 ## Screenshots
 
-![127 0 0 1_5500_](https://github.com/user-attachments/assets/14139d51-1ca3-405f-854a-94d0f1102728)
+![127 0 0 1_5500_](https://github.com/user-attachments/assets/78c62bc5-b49b-419c-98b0-a0255d845377)
+
